@@ -6,9 +6,9 @@ from Pages.BasePage import BasePage
 
 
 class LoginPage(BasePage):
-    def __init__(self, driver):
+    def __init__(self, driver, logger):
         self.driver = driver
-        self.log = self.getLogger()
+        self.log = logger
 
     testSignupText = (By.TAG_NAME, "h2")
     signupNameField = (By.CSS_SELECTOR, "input[data-qa='signup-name']")
@@ -19,7 +19,7 @@ class LoginPage(BasePage):
     loginPasswordField = (By.CSS_SELECTOR, "input[data-qa='login-password']")
     loginButton = (By.CSS_SELECTOR, "button[data-qa='login-button']")
 
-    warningText = (By.CSS_SELECTOR, "p['style=color: red;']")
+    warningText = (By.XPATH, "//p[text()='Email Address already exist!']")
 
     def get_text(self, index):
         elements = self.driver.find_elements(*LoginPage.testSignupText)
@@ -58,5 +58,4 @@ class LoginPage(BasePage):
         self.click_login_button()
 
     def get_warning(self):
-        WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, "p['style=color: red;']")))
         return self.driver.find_element(*LoginPage.warningText).text

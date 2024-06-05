@@ -6,9 +6,9 @@ from Pages.BasePage import BasePage
 
 
 class RegisterPage(BasePage):
-    def __init__(self, driver):
+    def __init__(self, driver, logger):
         self.driver = driver
-        self.log = self.getLogger()
+        self.log = logger
 
     # Text to assert
     textToAssert = (By.TAG_NAME, "b")
@@ -38,7 +38,6 @@ class RegisterPage(BasePage):
 
     continueButton = (By.CSS_SELECTOR, "a[data-qa='continue-button']")
     loggedInAs = (By.PARTIAL_LINK_TEXT, " Logged in as")
-
 
     # Entering Account Details
     def select_gender(self, gender):
@@ -77,7 +76,6 @@ class RegisterPage(BasePage):
         actions = ActionChains(self.driver)
         actions.move_to_element(element).perform()
         self.driver.execute_script("arguments[0].click();", element)
-
 
     #Entering Address Details
     def enter_fname(self, fname):
@@ -152,7 +150,6 @@ class RegisterPage(BasePage):
         self.submit()
         self.log.info("filled all details")
 
-    def logout(self):
+    def continue_to_home(self):
         self.log.info("Logging Out")
         self.driver.find_element(*RegisterPage.continueButton).click()
-
