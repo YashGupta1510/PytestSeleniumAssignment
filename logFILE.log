@@ -1,0 +1,45 @@
+[2024-06-05 17:26:51,947 -conftest.py -                setup()]- INFO - ------NEW RUN------
+[2024-06-05 17:26:51,947 -HomePage.py - move_to_sign_in_page()]- INFO - Moving to SignIn Page.
+[2024-06-05 17:26:54,327 -LoginPage.py -    enter_signup_name()]- INFO - Using value test for name
+[2024-06-05 17:26:54,500 -LoginPage.py -   enter_signup_email()]- INFO - Using value test@test.com for email
+[2024-06-05 17:27:10,694 -HomePage.py - move_to_sign_in_page()]- INFO - Moving to SignIn Page.
+[2024-06-05 17:27:14,155 -LoginPage.py -    enter_signup_name()]- INFO - Using value test for name
+[2024-06-05 17:27:14,333 -LoginPage.py -   enter_signup_email()]- INFO - Using value test#yash@test.com for email
+[2024-06-05 17:27:16,909 -RegisterPage.py -        select_gender()]- INFO - Selecting Gender Mr
+[2024-06-05 17:27:17,115 -RegisterPage.py -       enter_password()]- INFO - Entering password 121212
+[2024-06-05 17:27:17,221 -RegisterPage.py -           select_day()]- INFO - Selecting Date 15
+[2024-06-05 17:27:17,363 -RegisterPage.py -         select_month()]- INFO - Selecting Month 10
+[2024-06-05 17:27:17,475 -RegisterPage.py -          select_year()]- INFO - Selecting Year 2001
+[2024-06-05 17:27:17,606 -RegisterPage.py -      tick_newsletter()]- INFO - Ticking Checkbox for newsletter
+[2024-06-05 17:27:17,960 -RegisterPage.py -           tick_optin()]- INFO - Ticking Checkbox for optin
+[2024-06-05 17:27:18,304 -RegisterPage.py -          enter_fname()]- INFO - Entering first name yash
+[2024-06-05 17:27:18,455 -RegisterPage.py -          enter_lname()]- INFO - Entering last name gupta
+[2024-06-05 17:27:18,565 -RegisterPage.py -        enter_company()]- INFO - Entering company name nagarro
+[2024-06-05 17:27:18,679 -RegisterPage.py -       enter_address1()]- INFO - Entering address 1 test address
+[2024-06-05 17:27:18,822 -RegisterPage.py -       enter_address2()]- INFO - Entering address 2 test address2
+[2024-06-05 17:27:18,963 -RegisterPage.py -       select_country()]- INFO - Selecting country India
+[2024-06-05 17:27:19,037 -RegisterPage.py -          enter_state()]- INFO - Entering state UttarPradesh
+[2024-06-05 17:27:19,168 -RegisterPage.py -           enter_city()]- INFO - Entering city Lucknow
+[2024-06-05 17:27:19,293 -RegisterPage.py -        enter_zipcode()]- INFO - Entering zipcode 226001
+[2024-06-05 17:27:19,409 -RegisterPage.py -         enter_mobile()]- INFO - Entering mobile 7881132091
+[2024-06-05 17:27:22,345 -RegisterPage.py -            fill_form()]- INFO - filled all details
+[2024-06-05 17:27:39,198 -HomePage.py - move_to_sign_in_page()]- INFO - Moving to SignIn Page.
+[2024-06-05 17:27:41,764 -LoginPage.py -    enter_login_email()]- INFO - Using value test#yash@test.com for email
+[2024-06-05 17:27:41,999 -LoginPage.py - enter_login_password()]- INFO - Using value 121212 for password
+[2024-06-05 17:28:14,693 -HomePage.py -            subscribe()]- INFO - On Home Page to Subscribe
+[2024-06-05 17:28:38,251 -HomePage.py - move_to_products_page()]- INFO - Moving to Products Page.
+[2024-06-05 17:28:44,772 -ProductsPage.py -          add_to_cart()]- INFO - Clicking on View Cart
+[2024-06-05 17:28:49,778 -LoginPage.py -    enter_login_email()]- INFO - Using value test#yash@test.com for email
+[2024-06-05 17:28:49,926 -LoginPage.py - enter_login_password()]- INFO - Using value 121212 for password
+[2024-06-05 17:28:54,132 -HomePage.py -    move_to_cart_page()]- INFO - Moving to SignIn Page.
+[2024-06-05 17:29:15,168 -HomePage.py - move_to_sign_in_page()]- INFO - Moving to SignIn Page.
+[2024-06-05 17:29:17,884 -LoginPage.py -    enter_login_email()]- INFO - Using value test#yash@test.com for email
+[2024-06-05 17:29:18,173 -LoginPage.py - enter_login_password()]- INFO - Using value 121212 for password
+[2024-06-05 17:29:27,882 -HomePage.py -          add_to_cart()]- INFO - Clicking on Product
+[2024-06-05 17:29:29,378 -HomePage.py -          add_to_cart()]- INFO - Clicking on View Cart
+[2024-06-05 17:29:31,225 -HomePage.py -          add_to_cart()]- INFO - Clicking on Proceed to Checkout
+[2024-06-05 17:29:33,027 -HomePage.py -          add_to_cart()]- INFO - Entering Description for order
+[2024-06-05 17:29:35,102 -HomePage.py -              payment()]- INFO - Completing Payment form
+[2024-06-05 17:29:35,102 -HomePage.py -              payment()]- INFO - Detail: nameOnCard is Yash Gupta, number is 1111111111111111, cvc is 111, expiry month is 10, expiry year is 2001
+[2024-06-05 17:29:39,061 -HomePage.py - get_success_order_message()]- INFO - Order Complete Moving to SignIn Page.
+[2024-06-05 17:29:39,205 -HomePage.py -           delete_acc()]- INFO - Deleting account

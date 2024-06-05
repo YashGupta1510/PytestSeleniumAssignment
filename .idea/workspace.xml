@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="380ebe53-ae61-4f81-9c7f-727299b7b1ed" name="Changes" comment="Completed Project" />
+    <list default="true" id="380ebe53-ae61-4f81-9c7f-727299b7b1ed" name="Changes" comment="cleanup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717587258601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added readme and requirements.txt">
+      <option name="closed" value="true" />
+      <created>1717588181461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717588181461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cleanup">
+      <option name="closed" value="true" />
+      <created>1717588211335</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717588211335</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +313,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="day 2" />
     <MESSAGE value="Completed Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Project" />
+    <MESSAGE value="added readme and requirements.txt" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
 </project>
