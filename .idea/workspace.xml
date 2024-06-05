@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="380ebe53-ae61-4f81-9c7f-727299b7b1ed" name="Changes" comment="day 2">
-      <change afterPath="$PROJECT_DIR$/Pages/ProductsPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/DataReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_ProductsPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/RegisterPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_RegisterPage.py" afterDir="false" />
-    </list>
+    <list default="true" id="380ebe53-ae61-4f81-9c7f-727299b7b1ed" name="Changes" comment="Completed Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717335661682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Project">
+      <option name="closed" value="true" />
+      <created>1717587258601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717587258601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +294,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="day 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 2" />
+    <MESSAGE value="Completed Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Project" />
   </component>
 </project>
